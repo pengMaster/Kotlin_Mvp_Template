@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hazz.kotlinmvp">
+    package="com.king.kotlinmvp">
 
     <!-- 获取GSM网络信息状态，如当前的网络连接是否有效 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -71,6 +71,10 @@
             android:screenOrientation="portrait" />
         <!-- 观看记录 -->
         <activity android:name=".ui.activity.WatchHistoryActivity"
+            android:screenOrientation="portrait"
+            />
+        <!-- 图片记录 -->
+        <activity android:name=".ui.activity.ImageActivity"
             android:screenOrientation="portrait"
             />
 
