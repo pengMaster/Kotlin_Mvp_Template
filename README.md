@@ -4,7 +4,7 @@
     <font color=#FF7347  >中文说明</font>
   </a>
     <a style="color:#FF7347" href="README_EN.md">
-           <font color=#5000  >英文说明</font>
+           <font color=#000000  >英文说明</font>
     </a>
 </p>
 
