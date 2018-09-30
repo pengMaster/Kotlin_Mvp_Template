@@ -1,4 +1,12 @@
-### 适合团队的框架才是好的框架。
+<h1 align="center">适合团队的框架才是好的框架</h1>
+<p align="center">
+  <a href="MVPArms.md">
+    <b>中文说明</b>
+  </a>
+    <a href="MVPArms.md">
+      <b>英文说明说明</b>
+    </a>
+</p>
 
 ### 1.项目简介
 本项目是基于kotlin + Mvp + Rxjava + Retrofit 封装的轻量级模板项目。项目没有过多冗余的依赖，
