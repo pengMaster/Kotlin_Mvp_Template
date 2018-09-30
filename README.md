@@ -31,5 +31,22 @@
 ├── settings.gradle
 
 ```
+
+### 2.源码解析
+
+| MvpArms   | Mvp    |  comment  |
+| :----: | :----:   | :----: |
+|   id    |   id    |   id    |
+|   name    |   name    |   name    |
+|   pass    |   title    |   content    |
+|   avator     | content      |   moment    |
+|    moment     | md      |    postid   |
+|     -    | uid      |   avator    |
+|     -    | moment      |    -   |
+|     -   | comments      |    -   |    
+|     -   | pv             |   -   |    
+|     -   |  avator       |    -   |  
+
+
 ### 2.传送门
 https://github.com/MindorksOpenSource/from-java-to-kotlin
