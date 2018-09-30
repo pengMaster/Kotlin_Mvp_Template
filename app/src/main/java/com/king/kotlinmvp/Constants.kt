@@ -1,25 +1,13 @@
 package com.king.kotlinmvp
 
-//  ┏┓　　　┏┓
-//┏┛┻━━━┛┻┓
-//┃　　　　　　　┃
-//┃　　　━　　　┃
-//┃　┳┛　┗┳　┃
-//┃　　　　　　　┃
-//┃　　　┻　　　┃
-//┃　　　　　　　┃
-//┗━┓　　　┏━┛
-//    ┃　　　┃   神兽保佑
-//    ┃　　　┃   代码无BUG！
-//    ┃　　　┗━━━┓
-//    ┃　　　　　　　┣┓
-//    ┃　　　　　　　┏┛
-//    ┗┓┓┏━┳┓┏┛
-//      ┃┫┫　┃┫┫
-//      ┗┻┛　┗┻┛
 /**
- * Created by xuhao on 2017/11/27.
- * desc: 常量
+ * <pre>
+ *     author : Wp
+ *     e-mail : 18141924293@163.com
+ *     time   : 2018/09/19
+ *     desc   : 常量配置
+ *     version: 1.0
+ * </pre>
  */
 class Constants private constructor() {
 

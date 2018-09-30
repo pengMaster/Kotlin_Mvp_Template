@@ -87,7 +87,6 @@ import pub.devrel.easypermissions.EasyPermissions
 
     override fun onDestroy() {
         super.onDestroy()
-        activity?.let { MyApplication.getRefWatcher(it)?.watch(activity) }
     }
 
 

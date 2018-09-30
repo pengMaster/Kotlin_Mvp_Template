@@ -10,6 +10,8 @@ import android.view.animation.Animation.AnimationListener
 import com.king.kotlinmvp.MyApplication
 import com.king.kotlinmvp.R
 import com.king.kotlinmvp.base.BaseActivity
+import com.king.kotlinmvp.mvp.contract.ImageContract
+import com.king.kotlinmvp.mvp.presenter.ImagePresenter
 import com.king.kotlinmvp.utils.AppUtils
 import kotlinx.android.synthetic.main.activity_splash.*
 import pub.devrel.easypermissions.EasyPermissions
@@ -21,7 +23,6 @@ import pub.devrel.easypermissions.EasyPermissions
  */
 
 class SplashActivity : BaseActivity() {
-
 
     private var textTypeface: Typeface?=null
 
@@ -71,7 +72,7 @@ class SplashActivity : BaseActivity() {
 
 
     fun redirectTo() {
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, ImageActivity::class.java)
         startActivity(intent)
         finish()
     }
@@ -99,6 +100,5 @@ class SplashActivity : BaseActivity() {
             }
         }
     }
-
 
 }

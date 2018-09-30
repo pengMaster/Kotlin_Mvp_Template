@@ -16,13 +16,15 @@ import kotlin.properties.Delegates
 
 
 /**
- * Created by xuhao on 2017/11/16.
- *
+ * <pre>
+ *     author : Wp
+ *     e-mail : 18141924293@163.com
+ *     time   : 2018/09/19
+ *     desc   : Application
+ *     version: 1.0
+ * </pre>
  */
-
 class MyApplication : Application(){
-
-    private var refWatcher: RefWatcher? = null
 
     companion object {
 
@@ -31,21 +33,16 @@ class MyApplication : Application(){
         var context: Context by Delegates.notNull()
             private set
 
-        fun getRefWatcher(context: Context): RefWatcher? {
-            val myApplication = context.applicationContext as MyApplication
-            return myApplication.refWatcher
-        }
 
     }
 
     override fun onCreate() {
+
         super.onCreate()
         context = applicationContext
-//        refWatcher = setupLeakCanary()
         initConfig()
         DisplayManager.init(this)
         registerActivityLifecycleCallbacks(mActivityLifecycleCallbacks)
-
 
     }
 
