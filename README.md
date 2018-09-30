@@ -4,7 +4,7 @@
     <b>中文说明</b>
   </a>
     <a href="README_EN.md">
-      <b style="background:#FF7347">英文说明</b>
+      <b style="color:#FF7347">英文说明</b>
     </a>
 </p>
 
