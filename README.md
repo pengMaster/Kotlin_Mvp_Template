@@ -36,7 +36,7 @@
 ### 2.技术选型
 
 | MvpArms   | KotlinMvpTemplate    |
-| :----: | :----:   | :----: |
+| :----: | :----:   |
 |   Mvp+Rxjava+Retrofit+Dagger+组件化    |   Kotlin+Mvp+Rxjava+Retrofit    |
 |   使用方便，还有一键生成工具，冗余代码过多，不适合快速开发   |   使用方便，适合快速开发以及新手    |  
 |   框架成熟    |   可根据需求定制    |  
