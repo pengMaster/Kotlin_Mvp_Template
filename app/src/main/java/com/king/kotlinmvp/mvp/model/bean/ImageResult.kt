@@ -14,7 +14,7 @@ import java.io.Serializable
 data class ImageResult(val name:String
                        ,val url:String
                        ,val desc:String
-                       ,val extendOne:String) {
+                       ,val extendOne:String) : Serializable{
     override fun toString(): String {
         return "ImageResult(name='$name', url='$url', desc='$desc', extendOne='$extendOne')"
     }

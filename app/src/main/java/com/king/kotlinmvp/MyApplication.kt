@@ -9,9 +9,6 @@ import com.king.kotlinmvp.utils.DisplayManager
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger
 import com.orhanobut.logger.PrettyFormatStrategy
-import com.squareup.leakcanary.LeakCanary
-import com.squareup.leakcanary.RefWatcher
-import com.tencent.bugly.crashreport.CrashReport
 import kotlin.properties.Delegates
 
 
@@ -44,12 +41,6 @@ class MyApplication : Application(){
         DisplayManager.init(this)
         registerActivityLifecycleCallbacks(mActivityLifecycleCallbacks)
 
-    }
-
-    private fun setupLeakCanary(): RefWatcher {
-        return if (LeakCanary.isInAnalyzerProcess(this)) {
-            RefWatcher.DISABLED
-        } else LeakCanary.install(this)
     }
 
 

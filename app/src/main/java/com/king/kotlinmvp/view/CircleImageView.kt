@@ -9,10 +9,7 @@ import android.util.AttributeSet
 import com.king.kotlinmvp.R
 
 @Suppress("IMPLICIT_CAST_TO_ANY")
-/**
- * Created by xuhao on 2017/12/4.
- * desc: 圆角的 ImageView
- */
+
 
 class CircleImageView(context: Context, attrs: AttributeSet) : android.support.v7.widget.AppCompatImageView(context, attrs) {
 

@@ -51,10 +51,12 @@
 
     <color name="color_light_black">#5000</color>
 
-
     <color name="white_f2">#f1f2f7</color>
     <color name="white_96">#969696</color>
     <color name="black_b1">#341b1c</color>
+
+    <!-- 半透明背景 -->
+    <color name="transparent_23">#13000000</color>
 
 
 </resources>

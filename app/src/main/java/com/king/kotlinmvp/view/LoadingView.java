@@ -16,10 +16,6 @@ import com.king.kotlinmvp.R;
 
 import java.lang.ref.WeakReference;
 
-/**
- * Created by xuhao on 2017/12/4.
- * desc:LoadingView 加载动画
- */
 
 public class LoadingView extends View {
 

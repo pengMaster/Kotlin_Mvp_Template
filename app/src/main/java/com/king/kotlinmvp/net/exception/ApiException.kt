@@ -1,9 +1,5 @@
 package com.king.kotlinmvp.net.exception
 
-/**
- * Created by xuhao on 2017/12/5.
- * desc:
- */
 class ApiException : RuntimeException {
 
     private var code: Int? = null

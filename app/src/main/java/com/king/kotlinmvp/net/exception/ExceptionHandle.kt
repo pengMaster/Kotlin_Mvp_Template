@@ -11,10 +11,6 @@ import java.net.SocketTimeoutException
 import java.net.UnknownHostException
 import java.text.ParseException
 
-/**
- * Created by xuhao on 2017/12/5.
- * desc: 异常处理类
- */
 
 class ExceptionHandle {
 

@@ -1,4 +1,6 @@
-
+### 1.项目简介
+本项目是基于kotlin + Mvp + Rxjava + Retrofit 封装的轻量级模板项目。项目没有过多冗余的依赖，
+适用于快速开发以及新手练手。
 
 ### 2.目录结构
 ```
@@ -29,3 +31,5 @@
 ├── settings.gradle
 
 ```
+### 2.传送门
+https://github.com/MindorksOpenSource/from-java-to-kotlin

@@ -3,12 +3,6 @@ package com.king.kotlinmvp.rx.scheduler
 import io.reactivex.*
 import org.reactivestreams.Publisher
 
-/**
- * Created by xuhao on 2017/11/17.
- * desc:RxJava2.x 5中基础相应类型
- */
-
-
 
 abstract class BaseScheduler<T> protected constructor(private val subscribeOnScheduler: Scheduler,
                                                       private val observeOnScheduler: Scheduler) : ObservableTransformer<T, T>,

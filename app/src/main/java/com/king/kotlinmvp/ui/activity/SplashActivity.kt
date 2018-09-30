@@ -17,11 +17,6 @@ import kotlinx.android.synthetic.main.activity_splash.*
 import pub.devrel.easypermissions.EasyPermissions
 
 
-/**
- * Created by xuhao on 2017/12/5.
- * desc: 启动页
- */
-
 class SplashActivity : BaseActivity() {
 
     private var textTypeface: Typeface?=null

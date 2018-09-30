@@ -17,10 +17,7 @@ import android.widget.TextView
 import com.king.kotlinmvp.R
 
 
-/**
- * 可折叠，展开的TextView
- * Created by xuhao on 2017/11/27
- */
+
 class ExpandableTextView : LinearLayout, View.OnClickListener {
 
     private var mTextView: TextView? = null

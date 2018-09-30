@@ -14,11 +14,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.io.File
 import java.util.concurrent.TimeUnit
 
-/**
- * Created by xuhao on 2017/11/16.
- *
- */
-
 object RetrofitManager{
 
     val service: ApiService by lazy (LazyThreadSafetyMode.SYNCHRONIZED){

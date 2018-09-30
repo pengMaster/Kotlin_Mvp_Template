@@ -7,10 +7,7 @@ import com.orhanobut.logger.Logger
 
 import java.lang.reflect.Field
 
-/**
- * Created by xuhao on 2017/12/13.
- * desc:
- */
+
 
 object CleanLeakUtils {
 

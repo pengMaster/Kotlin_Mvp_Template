@@ -8,10 +8,6 @@ import android.util.Base64
 import java.io.*
 
 
-/**
- * Created by xuhao on 2017/12/11.
- * desc:kotlin委托属性+SharedPreference实例(记录视频观看记录的）
- */
 class WatchHistoryUtils {
 
     companion object {

@@ -15,11 +15,6 @@ import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 
 
-/**
- * @author xuhao
- * created: 2017/10/25
- * desc:BaseActivity基类
- */
 abstract class BaseActivity : AppCompatActivity(),EasyPermissions.PermissionCallbacks {
     /**
      * 多种状态的 View 的切换

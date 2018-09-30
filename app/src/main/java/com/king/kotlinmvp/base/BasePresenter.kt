@@ -4,11 +4,6 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
 
-
-/**
- * Created by xuhao on 2017/11/16.
- *
- */
 open class BasePresenter<T : IBaseView> : IPresenter<T> {
 
     var mRootView: T? = null

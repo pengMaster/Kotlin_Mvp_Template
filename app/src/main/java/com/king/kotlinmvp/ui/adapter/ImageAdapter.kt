@@ -11,10 +11,12 @@ import android.widget.TextView
 import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.load.model.LazyHeaders
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.king.kotlinmvp.Constants
 import com.king.kotlinmvp.MyApplication
 import com.king.kotlinmvp.R
 import com.king.kotlinmvp.glide.GlideApp
 import com.king.kotlinmvp.mvp.model.bean.ImageResult
+import com.king.kotlinmvp.ui.activity.ImageDetailActivity
 import com.king.kotlinmvp.view.recyclerview.ViewHolder
 import com.king.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 
@@ -71,9 +73,9 @@ class ImageAdapter(mContext: Activity, categoryList: ArrayList<ImageResult>, lay
         })
 
         holder.setOnItemClickListener(View.OnClickListener {
-//            val intent = Intent(mContext as Activity, CategoryDetailActivity::class.java)
-            //intent.putExtra(Constants.BUNDLE_CATEGORY_DATA, data)
-//            mContext.startActivity(intent)
+            val intent = Intent(mContext as Activity, ImageDetailActivity::class.java)
+            intent.putExtra(Constants.BUNDLE_IMAGE_DATA, data)
+            mContext.startActivity(intent)
         })
         //动画
         val animation = AnimationUtils.loadAnimation(mContext, R.anim.translate_0_1)

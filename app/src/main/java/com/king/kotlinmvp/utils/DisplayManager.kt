@@ -3,10 +3,6 @@ package com.king.kotlinmvp.utils
 import android.content.Context
 import android.util.DisplayMetrics
 
-/**
- * Created by xuhao on 2017/11/27.
- * desc:
- */
 
 object DisplayManager {
     init {

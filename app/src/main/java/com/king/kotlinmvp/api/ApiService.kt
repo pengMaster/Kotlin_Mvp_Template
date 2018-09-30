@@ -5,10 +5,14 @@ import io.reactivex.Observable
 import retrofit2.http.*
 
 /**
- * Created by xuhao on 2017/11/16.
- * Api 接口
+ * <pre>
+ *     author : Wp
+ *     e-mail : 18141924293@163.com
+ *     time   : 2018/09/30
+ *     desc   : Api接口
+ *     version: 1.0
+ * </pre>
  */
-
 interface ApiService{
 
     /**

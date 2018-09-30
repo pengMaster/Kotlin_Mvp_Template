@@ -9,10 +9,6 @@ import android.view.ViewGroup
 import com.king.kotlinmvp.view.recyclerview.MultipleType
 import com.king.kotlinmvp.view.recyclerview.ViewHolder
 
-/**
- * Created by xuhao on 2017/11/22.
- * desc: 通用的 Adapter
- */
 
 abstract class CommonAdapter<T>(var mContext: Context, var mData: ArrayList<T>, //条目布局
                                 private var mLayoutId: Int) : RecyclerView.Adapter<ViewHolder>() {
