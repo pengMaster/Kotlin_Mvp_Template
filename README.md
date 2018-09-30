@@ -36,7 +36,7 @@
 
 | MvpArms   | Mvp    |  comment  |
 | :----: | :----:   | :----: |
-|   id    |   id    |   id    |
+|   项目没有过多冗余的依赖    |   id    |   id    |
 |   name    |   name    |   name    |
 |   pass    |   title    |   content    |
 |   avator     | content      |   moment    |
