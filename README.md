@@ -1,36 +1,37 @@
-<h1 align="center">适合团队的框架才是好的框架</h1>
+<h1 align="center">A good framework is one that suits the team
+
+</h1>
 <p align="center">
-  <a href="README_EN.md">
-    <b>英文说明</b>
+  <a href="README_CN.md">
+    <b>Chinese Description</b>
   </a>
 </p>
 
-### 1.项目简介
-本项目是基于kotlin + Mvp + Rxjava + Retrofit 封装的轻量级模板项目。项目没有过多冗余的依赖，
-适用于快速开发以及新手练手。
+### 1.project brief
+This project is a lightweight template project based on kotlin + Mvp + Rxjava + Retrofit package without too much redundant dependencies, suitable for rapid development as well as novice training。
 
-### 2.目录结构
+### 2.directory structure
 ```
 ├── .gradle
 ├── .idea
 ├── app.main.java.package
-│   ├── api                 配置请求地址
-│   ├── base                base基类封装
-│   ├── glide               图片加载框架
-│   ├── net                 网络请求框架配置
-│   ├── rx                  rxjava配置
+│   ├── api                 Configure the request address
+│   ├── base                base packaging
+│   ├── glide               Image loading frame
+│   ├── net                 Network request framework configuration
+│   ├── rx                  rxjava configuration
 │   ├── mvp
-│   │    └── contract       view和presenter实现方法接口
-│   │    └── model          数据加载层
-│   │    └── presenter      逻辑处理层（数据加载页面显示）
+│   │    └── contract       view and presenter Implement method interface
+│   │    └── model          Data loading layer
+│   │    └── presenter      Logical processing layer (data loading page display)
 │   ├── ui
 │   │    └── activity       activity
-│   │    └── adapter        适配器
+│   │    └── adapter        adapter
 │   │    └── fragment       fragment
-│   ├── utils               工具类
-│   ├── view                view控件
-│   ├── Constants.kt        全局常量
-│   ├── Extensions.kt       扩展函数
+│   ├── utils               utils
+│   ├── view                view widget
+│   ├── Constants.kt        Constants
+│   ├── Extensions.kt       Extensions
 │   ├── MyApplication.kt    Application
 ├── build
 ├── gradle
@@ -39,29 +40,29 @@
 
 ```
 
-### 3.图解
+### 3.scheme
 
 <div >
 <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/Architecture.png"   alt="引自MvpArms"/>
 </div>
 
-### 4.技术选型
+### 4.choosing technology
 
 | MvpArms   | KotlinMvpTemplate    |
 | :----: | :----:   |
-|   Mvp+Rxjava+Retrofit+Dagger+组件化    |   Kotlin+Mvp+Rxjava+Retrofit    |
-|   使用方便，还有一键生成工具，冗余代码过多，不适合快速开发   |   使用方便，适合快速开发以及新手    |  
-|   框架成熟    |   可根据需求定制    |  
+|   Mvp+Rxjava+Retrofit+Dagger+modularization    |   Kotlin+Mvp+Rxjava+Retrofit    |
+|   Easy to use, there are one-click generation tools, too much redundant code, not suitable for rapid development   |   Easy to use, suitable for rapid development and novice |  
+|   Mature framework    |   VMCPP    |  
 |   Java     | Kotlin      |  
 
 ```
-为什么和MvpArms做对比昵？ 这个简单框架只是一个基础框架，其实没有和别的框架做比较的必要性，
-但是之前用过一段时间MvpArms，也从中学到了很多东西，但是并不是所有公司项目都是大项目，可能会面临
-快速开发的需求，所有MvpArms有些功能并不是很适合。适合团队的框架才是好的框架
+Why is it compared with MvpArms? This simple framework is only a basic framework, there is no necessity of comparing with other framework, but used for a period of time before MvpArms, also learned a lot from this, but not all the company projects are big projects, could face the demand of the rapid development, all MvpArms some function is not very suitable for the framework of team framework is good
+
 ```
 
-### 5.技术要点
-主要使用的第三方开源框架有：
+### 5.technical essential
+
+The main third-party open source frameworks used are：
 
  - [RxJava](https://github.com/ReactiveX/RxJava)
  - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
@@ -71,12 +72,14 @@
  - [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 
 
-### 6.后续更新
+### 6.update
 
-- 加入Dagger2，过多冗余代码用标签代替
-- 开放一键生成contract - model - presenter 工具
+- Add Dagger2 and the redundant code is replaced with tags
+- Open one-click generation of the serve-model-presenter tool
 
-### 7.简单效果图
+
+### 7.Simple rendering
+
 <div >
     <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-28-164014.jpg" width="150" height="250"  alt=""/>
     <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-28-164110.jpg" width="150" height="250"  alt=""/>
@@ -85,22 +88,21 @@
    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-29-144929.jpg" width="150" height="250"  alt=""/>
 </div>
 
-项目功能较为简单，只是一个简单的图片展示，目前项目封装了以下点位：
-- 网络请求RetrofitManager封装
-- 网络请求 加载 - 失败 - 成功 MultipleStatusView是一个和好用的工具
-- Base基类 activity - fragment - adapter
-- glide封装
-- rxjava封装
-- 各种工具类封装
-- shape以及gradient各种图形封装
-- 动画封装
+The project function is relatively simple, just a simple picture display. Currently, the project encapsulates the following points:
+- network request RetrofitManager encapsulation
+- network request loading - failure - success MultipleStatusView is a tool that works well
+- Base Base class activity - fragment - adapter
+- glide encapsulation
+- rxjava encapsulation
+- various tool classes encapsulation
+- shape and gradient graphics encapsulation
+- animation encapsulation
 
-
-### 8.特别感谢
+### 8.particular thanks
 
  - [MvpArms](https://github.com/JessYanCoding/MVPArms)
  - [KotlinMvp](https://github.com/git-xuhao/KotlinMvp)
 
-### 9.项目地址
+### 9.project address
 
- - [你的Star和Fork是我永生的追求](https://github.com/pengMaster/Kotlin_Mvp_Template)
+ - [Your Star and Fork are my eternal quest](https://github.com/pengMaster/Kotlin_Mvp_Template)
