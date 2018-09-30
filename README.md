@@ -50,7 +50,25 @@
 
 ### 4.图解
 
-    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/Architecture.png"   alt="引自MvpArms"/>
+<div >
+<img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/Architecture.png"   alt="引自MvpArms"/>
+</div>
+
+### 5.技术要点
+主要使用的第三方开源框架有：
+
+ - [RxJava](https://github.com/ReactiveX/RxJava)
+ - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+ - [Retrofit](https://github.com/square/retrofit)
+ - [Glide](https://github.com/bumptech/glide)
+ - [Logger](https://github.com/orhanobut/logger)
+ - [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
+
+
+### 5.特别感谢
+
+ - [MvpArms](https://github.com/JessYanCoding/MVPArms)
+ - [KotlinMvp](https://github.com/git-xuhao/KotlinMvp)
 
 
 ### 5.简单效果图
