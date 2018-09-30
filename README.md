@@ -32,20 +32,16 @@
 
 ```
 
-### 2.源码解析
+### 2.技术选型
 
-| MvpArms   | Mvp    |  comment  |
+| MvpArms   | KotlinMvpTemplate    |
 | :----: | :----:   | :----: |
-|   项目没有过多冗余的依赖    |   id    |   id    |
-|   name    |   name    |   name    |
-|   pass    |   title    |   content    |
-|   avator     | content      |   moment    |
-|    moment     | md      |    postid   |
-|     -    | uid      |   avator    |
-|     -    | moment      |    -   |
-|     -   | comments      |    -   |    
-|     -   | pv             |   -   |    
-|     -   |  avator       |    -   |  
+|   Mvp+Rxjava+Retrofit+Dagger+组件化    |   Kotlin+Mvp+Rxjava+Retrofit    |
+|   使用方便，还有一键生成工具，冗余代码过多，不适合快速开发   |   使用方便，适合快速开发以及新手    |  
+|   框架成熟    |   title    |  
+|   avator     | content      |  
+|    moment     | md      |  
+
 
 
 ### 2.传送门
