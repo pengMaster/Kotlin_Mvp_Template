@@ -33,7 +33,7 @@
 
 ```
 
-### 2.技术选型
+### 3.技术选型
 
 | MvpArms   | KotlinMvpTemplate    |
 | :----: | :----:   |
@@ -48,6 +48,19 @@
 快速开发的需求，所有MvpArms有些功能并不是很适合。适合团队的框架才是好的框架
 ```
 
-### 2.技术选型
+### 4.图解
+
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/Architecture.png"   alt="引自MvpArms"/>
+
+
+### 5.简单效果图
+<div >
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-28-164014.jpg" width="150" height="250"  alt=""/>
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-28-164030.jpg" width="150" height="250"  alt=""/>
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-28-164110.jpg" width="150" height="250"  alt=""/>
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-28-164920.jpg" width="150" height="250" alt=""/>
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-29-100403.jpg" width="150" height="250"  alt=""/>
+   <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-29-144929.jpg" width="150" height="250"  alt=""/>
+</div>
 ### 2.传送门
 https://github.com/MindorksOpenSource/from-java-to-kotlin
