@@ -8,6 +8,7 @@
   </a>
 </p>
 
+
 ### 1.project brief
 This project is a lightweight template project based on kotlin + Mvp + Rxjava + Retrofit package without too much redundant dependencies, suitable for rapid development as well as novice training。
 
