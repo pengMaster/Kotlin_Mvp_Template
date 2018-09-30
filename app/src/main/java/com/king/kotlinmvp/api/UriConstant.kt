@@ -10,7 +10,7 @@ package com.king.kotlinmvp.api
  * </pre>
  */
 object UrlConstant{
-//    const val BASE_URL = "http://baobab.kaiyanapp.com/api/"
-    const val BASE_URL= "http://192.168.1.97:8080/party/"
+    const val BASE_URL = "https://pengmaster.com/party/"
+//    const val BASE_URL= "http://192.168.1.97:8080/party/"
 
 }
