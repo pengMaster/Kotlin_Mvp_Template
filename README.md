@@ -4,7 +4,7 @@
     <b>中文说明</b>
   </a>
     <a href="MVPArms.md">
-      <b>英文说明说明</b>
+      <b>英文说明</b>
     </a>
 </p>
 
@@ -89,7 +89,6 @@
    <img src="https://github.com/pengMaster/picApplyGit/blob/master/KotlinMvp/device-2018-09-29-144929.jpg" width="150" height="250"  alt=""/>
 </div>
 
-```
 项目功能较为简单，只是一个简单的图片展示，目前项目封装了以下点位：
 - 网络请求RetrofitManager封装
 - 网络请求 加载 - 失败 - 成功 MultipleStatusView是一个和好用的工具
@@ -100,7 +99,6 @@
 - shape以及gradient各种图形封装
 - 动画封装
 
-```
 
 ### 8.特别感谢
 
