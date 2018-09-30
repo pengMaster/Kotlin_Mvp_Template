@@ -1,10 +1,10 @@
 <h1 align="center">适合团队的框架才是好的框架</h1>
 <p align="center">
   <a href="README.md">
-    <b>中文说明</b>
+    <font color=#FF7347  >中文说明</font>
   </a>
-    <a href="README_EN.md">
-      <b style="color:#FF7347">英文说明</b>
+    <a style="color:#FF7347" href="README_EN.md">
+           <font color=#5000  >英文说明</font>
     </a>
 </p>
 
